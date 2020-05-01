@@ -26,6 +26,12 @@ A pole is attached by an un-actuated joint to a cart, which moves along a fricti
 
 ### Training
 
+The goal of the CartPole is to stay upright as long as possible. Without training the CartPole can easily fall down. With 2000 iterations of training using our network, the CartPole can stay upright.
+
+<p align="center">
+  <img src="document/img/carpolefinal2.gif" width="300"><br>
+</p>
+
 For each iteration, the mini-batch size I use is 64. I track loss and average cumulative reward evaluated on 50 trajectories for each iteration. I update the target network every 100 iterations. Each time I update the target network, the loss will increase as shown in figure 1. The average reward will increase and become stable over time. 
 
 <p align="center">
@@ -33,11 +39,6 @@ For each iteration, the mini-batch size I use is 64. I track loss and average cu
 </p>
 
  
-The goal of the CartPole is to stay upright as long as possible. Without training the CartPole can easily fall down. With 2000 iterations of training using our network, the CartPole can stay upright.
-
-<p align="center">
-  <img src="document/img/carpolefinal2.gif" width="300"><br>
-</p>
 
 
 
