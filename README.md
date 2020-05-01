@@ -15,7 +15,10 @@ The goal of the acrobot is change state from 'face down' to 'face up'. This is a
 
 # Test result
 
-For each iteration, the mini-batch size I use is 64. I track loss and average cumulative reward evaluated on 50 trajectories for each iteration. I update target network every 100 iterations. Each time I update the target network, the loss will increase as shown in figure 1. The average reward will increase and become stable over time. The average cumulative reward will converge to 200 eventually.
+For each iteration, the mini-batch size I use is 64. I track loss and average cumulative reward evaluated on 50 trajectories for each iteration. I update target network every 100 iterations. Each time I update the target network, the loss will increase as shown in figure 1. The average reward will increase and become stable over time. 
+
+The average cumulative reward will converge to 200 eventually, as shown below.
  
  <img src="document/img/avg_reward1.png" width="400"><br>
  
+
