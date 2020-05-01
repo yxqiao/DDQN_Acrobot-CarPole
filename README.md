@@ -10,7 +10,7 @@ The code is testes in the following enviroment.
 The goal of the acrobot is to change the state from 'face down' to 'face-up'. This is an example of the final position of the Acrobot using our DQN controller. We implement the first stage of the algorithm, which is described above. The second stage is a similar task. It needs us to stabilized the Acrobot to this unstable EQL. We need to train a new model to stabilize it or use a traditional controller like LQR to stabilized the model at EQL.
 
 <img src="document/img/acrobotfinal.gif" width="300"><br>
-<img src="document/img/carpolefinal.gif" width="300"><br>
+<img src="document/img/carpolefinal2.gif" width="300"><br>
 
 
 
