@@ -7,6 +7,9 @@ The code is testes in the following enviroment.
 - OpenAI Gym’s version of CartPole and Acrobot, which is provided in the source code
 - Pytorch
 
+<img src="document/img/acrobot_final_position.png" width="400"><br>
+
+
 
 # Test result
 
@@ -16,7 +19,6 @@ average cumulative reward evaluated on 50 trajectories for each iteration.
  Each time I update the target network, the loss will increase as shown in figure 1. 
  The average reward will increase and become stable over time. 
  The average cumulative reward will converge to 200 eventually.
-![average cumulative reward after each iteration](document/img/avg_reward1.png) 
-
-![average cumulative reward after each iteration](document/img/acrobot_final_position.png)
-
+ 
+ <img src="document/img/avg_reward1.png" width="400"><br>
+ 
