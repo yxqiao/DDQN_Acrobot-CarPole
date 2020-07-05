@@ -11,7 +11,7 @@ The code is testes in the following enviroment.
 
 The acrobot system includes two joints and two links, where the joint between the two links is actuated. Initially, the links are hanging downwards. The goal of the acrobot is to change the state from 'face down' to 'face-up'. This is an example of the final position of the Acrobot using our DQN controller. 
 <p align="center">
-  <img src="document/img/acrobotfinal.gif" width="300"><br>
+  <img src="document/img/one_test_example.gif" width="300"><br>
 </p>
 
 
